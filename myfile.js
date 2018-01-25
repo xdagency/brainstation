@@ -1,0 +1,1 @@
+var wrapper = getElementById("wrapper");
