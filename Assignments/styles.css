@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #E0E0E0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font: bold 48px/100% "Merriweather", Georgia, serif;
+  padding: 0 0 24px;
+}
+
+h2 {
+  font: bold 14px/100% Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 24px 0 8px;
+  margin: 0 0 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  font: normal 15px/150% "Merriweather", Georgia, serif;
+  padding: 8px 0 16px;
+}
+
+.page {
+  margin: 32px auto;
+  padding: 5%;
+  max-width: 640px;
+  background: white;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+}
+
+.skill {
+  padding: 8px 0;
+}
+
+.skill > div {
+  position: relative;
+  display: inline-block;
+  width: 55%;
+  max-width: 300px;
+  height: 8px;
+  background: #ddd;
+}
+
+[class^="p"]:before {
+  content: " ";
+  position: absolute;
+  background: #444;
+  height: 8px;
+}
+
+.p90:before { width: 90%; }
+.p85:before { width: 85%; }
+.p80:before { width: 80%; }
+.p75:before { width: 75%; }
+.p50:before { width: 50%; }
+.p35:before { width: 35%; }
+.p25:before { width: 25%; }
